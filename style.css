@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+img{
+    width: 100%
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+h2{
+    font-size: 1.8em;
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-content: initial;
+    position: fixed;
+    top: 0;
+    background-color: #931e67;
+    height: 50px;
+    align-items: center;
+    width: 100%
+}
+.menu a{
+    padding: 17px 50px 17px 50px
+}
+.menu a:hover{
+    background-color: lightpink;
+}
+.menu a{
+    font-size: 1.2em;
+    color: white;
+}
+.imagem{
+    width: 20%;
+    height: 20%;
+}
+.banner{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    background-color: #f1d7d7;
+    justify-content: space-around;
+    padding: 4%;
+}
+h1{
+    font-family: 'Bradley Hand ITC';
+    font-size: 2.5em;
+}
+.habilidades{
+    background-color: white;
+}
+.qwerty{
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+                                            
+.flex{
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+    align-items: center
+}
+.habilidades h2{
+    color: #931e67;
+    text-align: center;
+    padding-top: 3%;
+}
+.bolinha1{
+    width: 50%;
+    height: 50%;
+}
+.projetos {
+    background-color: #931e67;
+    color: white;
+    text-align: center;
+    padding: 4%;
+}
+.projetos h2{
+    color: white;
+    padding-bottom: 3%;
+    
+
+}
+.box1{
+    width: 70%;
+    height: 70%;
+}
+.box3{
+   display: flex;
+   align-items: baseline;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+.box{
+    width: 30%;
+    font-size: 1.2em;
+}
+
+.titulo{
+    text-align: center;
+    padding: 3%
+}
+.titulo h2{
+    color: #931e67;
+}
+.icone{
+    margin: 1%;
+    width: 3%;
+    height: 3%;
+}
+.icone_i{
+    margin: 0.8%;
+    width: 3.5%;
+    height: 3.5%;
+
+}
+.formulario{
+    background-color: #931e67;
+    padding: 3vh;
+    width: 50%;
+    margin: auto;
+    border-radius: 20px;
+}
+.form{
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: row;
+ justify-content: space-between;
+ padding: 2%;
+}
+input{
+    width: 50%;
+    height: 5vh;
+    border-radius: 10px;
+    border: none;
+    margin: 0 0 0 10vh;
+    padding: 2%;
+}
+input[type= submit]{
+    width: 96%;
+    margin: auto;
+}
+input[type= submit]{
+    width: 96%;
+    margin: auto;
+}
+.edc{
+    display: flex;
+    flex-direction: column;
+    
+}
+.formulario label{
+    padding: auto
+}
+label{
+    color: white;
+    font-size: 1.5em
+}
+.contato{
+    background-color: #931e67;
+    text-align: center;
+    color: white;
+    margin-top: 5%;
+    padding: 1%;
+}
+
+@media screen and (max-width:1090px){
+    .form{
+        font-size: 0.8em; 
+    }
+}
+@media screen and (max-width: 960px){
+    .formulario{
+        padding: 1vh;
+        width: 70%;
+        height: 40%;
+    }
+    .form{
+        padding: 3%;
+        flex-direction: column;
+    
+    }
+    .menu{
+        position: absolute;
+        top: 50px;
+        text-align: center;
+        flex-direction: column;
+        transition: linear;
+        height: auto;
+        font-size: 0.8em;
+        display: none;
+        z-index:5;
+    }
+   
+    .banner{
+        margin-top: 175px;
+    }
+    .menu li{
+        margin: 2.5vh 0 2.5vh 0;
+        font-size: 1.5em
+    }
+    .active{
+        display: block;
+    }
+    input{
+        width: 100%;
+        margin: 0;
+        padding: 2%;
+    }
+    .menu a{
+        padding: 17px 50% 17px 50%;
+        margin: 0
+    }
+    input[type= submit]{
+        margin: 3%;
+    }
+    label{
+        font-size: 1.3em
+    }
+    .icone{
+        margin: 1%;
+        width: 5%;
+        height: 5%;
+    }
+    .icone_i{
+        margin: 0.8%;
+        width: 5.5%;
+        height: 5.5%;
+    
+    }
+}
+@media screen and (max-width:768px){
+   h2{
+       font-size: 1.5em;
+   }
+    .menu a{
+        font-size: 1em;
+        padding: 7px 30px 7px 30px;
+    }
+   
+    .banner{
+        padding: 7%;
+    }
+    .box1{
+        width: 90%;
+        height: 90%;
+    }
+    .box{
+        font-size: 1em
+    }
+    .banner{
+        margin-top: 30px;
+    }
+    .bolinha1{
+        width: 40%;
+        height: 40%;
+    }
+    .banner h1{
+        font-size: 1.7em;
+    }
+    .formulario{
+        padding: 1vh;
+        width: 70%;
+        height: 50%;
+    }
+    .form{
+        padding: 3%;
+        flex-direction: column;
+    
+    }
+    input{
+        width: 100%;
+        margin: 0;
+        padding: 2%;
+    }
+    input[type= submit]{
+        margin: 3%;
+    }
+    label{
+        font-size: 1.3em
+    }
+    .icone{
+        margin: 1%;
+        width: 6%;
+        height: 6%;
+    }
+    .icone_i{
+        margin: 0.8%;
+        width: 6.5%;
+        height: 6.5%;
+    
+    }
+}
+
+@media screen and (max-width:479px){
+    .banner h1{
+        font-size: 1.5em;
+    }
+    .banner{
+        padding: 10%;
+    }
+    .banner p {
+        font-size: 0.8em;
+    }
+    .menu a{
+        font-size: 0.9em;
+        padding: 3px 22px 3px 22px;
+    }
+    .menu{
+        height: 22px;
+    }
+    .banner{
+        margin-top: 22px;
+    }
+    .flex{
+        flex-direction: column;
+    }
+    .formulario{
+        background-color: #931e67;
+        padding: 1vh;
+        width: 90%;
+        height: 50%;
+    }
+    .form{
+        padding: 3%;
+        flex-direction: column;
+    
+    }
+    input{
+        width: 100%;
+        margin: 0;
+        padding: 2%;
+    }
+    input[type= submit]{
+        margin: 3%;
+    }
+    label{
+        font-size: 1.3em
+    }
+    .bolinha1{
+        width: 35%;
+        height: 35%;
+        margin: 5%;
+    }
+    .box{
+        width: 95%;
+    }
+    .projetos p {
+    padding: 3%;
+    }
+    .projetos h2 {
+        padding: 7%
+    }
+    .icone{
+        margin: 1%;
+        width: 7%;
+        height: 7%;
+    }
+    .icone_i{
+        margin: 0.8%;
+        width: 7.5%;
+        height: 7.5%;
+    
+    }
+}
